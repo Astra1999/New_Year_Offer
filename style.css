@@ -1,0 +1,170 @@
+* {
+    margin: 0px;
+    font-family: "Work Sans", sans-serif;
+}
+
+/*header*/
+.header {
+    height: 808px;
+    background-image: url('image/banner1.png');
+    background-size: cover;
+    background-repeat: round;
+    position: relative;
+}
+
+.banner_content {
+    display: block;
+    text-align: end;
+    margin: 200px;
+    width: 525px;
+    position: absolute;
+    right: 0;
+}
+
+.banner_content h1 {
+    width: 800;
+    font-size: 65px;
+
+}
+
+.discription {
+    font-size: 16px;
+    color: gray;
+    margin-top: 10px;
+}
+
+.primary_button {
+    background-color: #F15B22;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 0px;
+    margin-top: 20px;
+    padding: 20px 25px;
+}
+
+/*main*/
+/*section 1*/
+
+.container-1 {
+    margin: 100px;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.pic {
+    width: 569px;
+    height: 723.3px;
+    background-image: url('image/person.png');
+    background-size: cover;
+    background-repeat: round;
+}
+
+.My-failures {
+    max-width: 416px;
+}
+
+.title {
+    font-size: 40px;
+}
+
+span {
+    color: #16D887;
+    font-size: 24px;
+}
+
+/*Section 2*/
+
+.plan-title {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.plans-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 130px;
+    margin-bottom: 100px;
+}
+
+.plan {
+    text-align: center;
+}
+
+.plan h3 {
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.plan p {
+    font-size: 25px;
+    padding-top: 5px;
+}
+
+/*Section 3*/
+
+.div-3 {
+    width: 1140px;
+
+    background-image: url('image/gradient2.png'), url('image/watch.png');
+    background-repeat: round;
+    background-size: cover;
+    border-radius: 8px;
+    padding: 80px;
+
+
+}
+
+.F-title {
+
+    font-size: 45px;
+    color: white;
+}
+
+.common-btn {
+    background-color: white;
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 0px;
+    margin-top: 10px;
+    padding: 20px 25px;
+}
+
+/*Footer*/
+
+.footer {
+    background-color: black;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0px;
+    gap: 290px;
+}
+
+
+
+.future {
+    width: 500px;
+}
+
+input {
+    margin-top: 20px;
+    height: 64px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.img {
+
+    margin-top: 30px;
+    gap: 1000px;
+}
