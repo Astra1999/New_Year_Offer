@@ -157,6 +157,7 @@ span {
 }
 
 input {
+    background-color: black;
     margin-top: 20px;
     height: 64px;
     width: 100%;
